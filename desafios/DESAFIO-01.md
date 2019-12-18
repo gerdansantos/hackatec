@@ -1,4 +1,5 @@
-DESÁFIO 01 - Reconhecimento de Alvos em Vídeos e Imagens de celulares, câmeras e drones
+# DESÁFIO 01 - 
+**Reconhecimento de Alvos em Vídeos e Imagens de celulares, câmeras e drones**
 
 Descrição: 
 Este hackathon será realizado na modalidade de prática. Os participantes podem utilizar os computadores da TECNISYS (Processador I5, 16GB de RAM) ou levar seus notebooks sugerimos que pré-configure minimamente com Linux e anaconda python. 

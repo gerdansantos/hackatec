@@ -27,18 +27,20 @@ Veja os detalhes sobre a instalação na [documentação oficial](https://docs.a
 
 
 # 2. Criando Ambiente Conda e instalando pacotes
+Não obrigatório, apenas para quem precisar de um empurrãozinho com python.
 
 Se você estiver usando o Windows, abra o **Anaconda Prompt**, no Linux ou macOS abra o **terminal**.
 
 Execute o seguinte comando para criar um ambiente conda hackathon:
 
 ```bash
-conda create --name hackathon python=3.7
+#versão do python 3.7 ou versão desejada
+conda create --name hackatec python=3.7
 ```
 
 Ative o ambiente com o seguinte comando:
 ```bash
-conda activate hackathon
+conda activate hackatec
 ```
 
 Execute o comando abaixo para instalar os pacotes que serão utilizados no hackathon:
@@ -49,7 +51,7 @@ pip install wtss
 
 Registre esse ambiente para ser utilizado no jupyter notebook
 ```bash
-python -m ipykernel install --user --name hackathon --display-name "Python (hackathon)"
+python -m ipykernel install --user --name hackatec --display-name "Python (hackatec)"
 ```
 
 Verifique se o jupyter notebook está corretamente instalado rodando:
